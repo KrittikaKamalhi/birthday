@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%);
+    font-family: 'Oleo Script', cursive;
+}
+
+.footer{
+    position: fixed;
+    line-height: 1.5;
+    width: 100%;
+    bottom :0px ;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: #F067B4;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 25px blue;}
+    to{box-shadow: 1px 1px 25px magenta;}
+}
